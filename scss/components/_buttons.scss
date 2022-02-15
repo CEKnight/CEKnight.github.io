@@ -1,0 +1,92 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.intro-section {
+    .btn-rounded {
+        padding: 0.4rem 3.2rem 0.6rem 0.7rem;
+        font-size:1.3rem;
+        span {
+            width: 2.4rem;
+            height: 2.4rem;
+    
+            i  {
+                line-height: 2.4rem;
+            }
+        }
+        @include media-breakpoint-down(sm) {
+            display: none;
+        }
+    }    
+}
+
+.navbar-collapse {
+    .btn-rounded {
+        padding: 0.3rem 2.5rem 0.3rem 0.7rem;
+        font-size:1.1rem;
+        span {
+            width: 2rem;
+            height: 2rem;
+            top: 50%;
+            right: 3px;
+    
+            i  {
+                color: $white;
+                font-size: 1.2rem;
+                line-height: 2rem;
+            }
+        }
+        @include media-breakpoint-down(sm) {
+            display: none;
+        }
+    }    
+}
+
+.projects {
+    .btn-rounded {
+        padding: 0.4rem 3rem 0.5rem 0.7rem;
+        font-size:1.1rem;
+        span {
+            width: 2.1rem;
+            height: 2.1rem;
+    
+            i  {
+                line-height: 2.2rem;
+            }
+        }
+    }
+}
+
+.btn-rounded {
+    position: relative;
+    padding: 0.9375rem 3.8rem 0.9375rem 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    border: 0.1rem solid rgba($white, 0.6);
+    background-color: $white;
+
+    span {
+        position: absolute;
+        background-color: $secondary;
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+        border-radius: 50%;
+
+        i  {
+            color: $white;
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+        }
+    }
+
+    &:hover {
+        @include gradient;
+        color: $white;
+        
+        span {
+            background-color: rgba($black, 0.6);
+        }
+    }
+}

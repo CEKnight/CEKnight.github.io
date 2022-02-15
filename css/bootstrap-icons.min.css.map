@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,IAAI,CAAJ,2DAAI",
+    "sources": [
+        "../scss/bootstrap-icons.scss"
+    ],
+    "names": [],
+    "file": "bootstrap-icons.min.css"
+}
