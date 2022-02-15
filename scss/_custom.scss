@@ -3,7 +3,8 @@ $gray-800:        #343a40;
 $black:           #000;
 $cyan:            #369ad9;
 $blue:            #032340;
-$blue-light:      #052d61;
+$indigo:          #0d66af;
+$footer:          #151414;
 
 //WHITE AND GRAY COLORS
 $white:    #fff;
@@ -20,6 +21,7 @@ $black:    #000;
 
 $primary: $blue;
 $secondary: $cyan;
+$info: $indigo;
 
 //ACCORDION OVERRIDES
 $accordion-icon-color: $primary;

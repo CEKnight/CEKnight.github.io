@@ -1,0 +1,20 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.code-challenges {
+    position: relative;
+    padding: 0;
+    @include gradient;
+
+}
+
+.carousel-inner {
+    .card {
+        margin: 4rem auto;
+        width: 50%;
+
+        @include media-breakpoint-down(sm) {
+            width: 18rem;
+        }
+    }
+}
