@@ -11428,6 +11428,7 @@ textarea.form-control-lg {
 .contact-box__icon {
   width: 2rem;
   stroke: #369ad9;
+  padding-top: 0.5rem;
 }
 @media (min-width: 992px) {
   .contact-box__icon {
@@ -11451,7 +11452,7 @@ textarea.form-control-lg {
 .contact-box__info--subtitle {
   color: #6c757d;
   text-decoration: none;
-  size: 0.8rem;
+  font-size: 0.8rem;
 }
 @media (min-width: 992px) {
   .contact-box__info--subtitle {
