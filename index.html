@@ -28,7 +28,7 @@
             <ul class="navbar-nav">
               <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Welcome</a></li>
               <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-              <li class="nav-item"><a class="nav-link" href="#code-challenges">Code_Challenges</a></li>
+              <li class="nav-item"><a class="nav-link" href="#code-challenges">Code Challenges</a></li>
               <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
             <button type="button" class="rounded-pill btn-rounded">اللغة العربية</button>
@@ -51,7 +51,7 @@
                 at some of my work below. 
               </span>
             </h1>
-            <a href="https://drive.google.com/uc?export=download&id=1hT1jDaLDdnGvXjDsGweVUpn1kFu5KYGC" download="Chris-Knight_Resume.pdf">
+            <a href="https://drive.google.com/uc?export=download&id=1-OpWjmnKGnOlP5JfNNz1zCBxHJlKGVW9" download="Chris-Knight_Resume.pdf">
               <button type="button" class="rounded-pill btn-rounded">resume
                 <i class="fa-solid fa-file-arrow-down"></i>
               </button>
@@ -237,7 +237,7 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L34.3,165.3C68.6,139,137,85,206,101.3C274.3,117,343,203,411,213.3C480,224,549,160,617,122.7C685.7,85,754,75,823,85.3C891.4,96,960,128,1029,138.7C1097.1,149,1166,139,1234,112C1302.9,85,1371,43,1406,21.3L1440,0L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
       <div class="container">
         <div class="row text-center text-white">
-          <h1 class="display-3 fw-bold pb-2">.code_challenges</h1>
+          <h1 class="display-3 fw-bold pb-2">.codeChallenges</h1>
           <hr style="width: 100px; height: 3px;" class="mx-auto">
           <p class="lead pt-1">Here are some examples of challenging coding problems I solved that aren't full-stack projects</p>
         </div>
@@ -332,26 +332,28 @@
           <div class="col-12 col-lg-6 bg-white shadow p-3">
             <div class="form w-100 pb-2">
               <h4 class="display-3--title mb-5">Send me a message</h4>
-              <form action="#" class="row">
+
+              <form action="https://formsubmit.co/contact@chris-knight.dev" method="POST" class="row">
                 <div class="col-lg-6 col-md-6 mb-3">
-                  <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
+                  <input type="text" placeholder="First Name" name="Name" id="inputFirstName" class="shadow form-control form-control-lg">
                 </div>
                 <div class="col-lg-6 col-md-6 mb-3">
-                  <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+                  <input type="text" placeholder="Last Name" name="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
                 </div>
                 <div class="col-lg-12 mb-3">
-                  <input type="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg">
+                  <input type="email" placeholder="email address" name="email" id="inputEmail" class="shadow form-control form-control-lg">
                 </div>
                 <div class="col-lg-12 mb-3">
-                  <textarea name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+                  <textarea name="message" placeholder="message" name="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
                 </div>
                 <div class="text-center d-grid mt-1">
-                  <button type="button" class="btn btn-info rounded-pill pt-3 pb-3">
+                  <button type="button submit" class="btn btn-info rounded-pill pt-3 pb-3">
                     submit
                     <i class="fas fa-paper-plane"></i>
                   </button>
                 </div>
               </form>
+
             </div>
           </div>
         </div>
