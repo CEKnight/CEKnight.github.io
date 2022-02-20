@@ -1,0 +1,13 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+#success {
+    @include gradient;
+    padding: 10rem 0 0 10rem;
+    width: 100%;
+    height: 100%;
+
+    @include media-breakpoint-down(sm) {
+        padding: 1rem;
+    }
+}

@@ -100,3 +100,18 @@
         }
     }
 }
+
+#success {
+    .btn-rounded {
+        padding: 0.4rem 3rem 0.5rem 0.7rem;
+        font-size:1.1rem;
+        span {
+            width: 2.1rem;
+            height: 2.1rem;
+    
+            i  {
+                line-height: 2.2rem;
+            }
+        }
+    }
+}
