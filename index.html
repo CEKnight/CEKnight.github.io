@@ -141,15 +141,15 @@
           <div class="col-md-6 border-right">
             <div class="bg-white p-3">
               <h2 class="fw-bold text-capitalize text-center">
-                Here is a showcase of some of my full-stack work
+                View some of my full-stack work
               </h2>
             </div>
           </div>
           <div class="col-md-6">
             <div class="bg-white p-4 text-start">
               <p>
-                The projects demonstrate an array of programming abilities. I used C#, ASP.NET, Javascript, HTML/CSS, and more. 
-                I also utilized mongoDB as a back-end database.
+                The following projects demonstrate an array of both front-end and back-end programming abilities. 
+                In these projects I utilized C#, ASP.NET, AngularJS, HTML/CSS/Bootstrap, and utilized mongoDB as a back-end database.
               </p>
             </div>
           </div>
@@ -164,11 +164,10 @@
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4">
             <div class="projects__content">
               <div class="icon d-block fas fa-user-group"></div>
-              <h3 class="display-3--title mt-1">Social Media Site</h3>
+              <h3 class="display-3--title mt-1">Dating App</h3>
               <p class="ih-lg">
-                Sample sam ple type something here later on when you can thanks. 
-                You should type more stuff on this side probably if you want to. it makes sense.
-                Setting up these templates can be very tedious at times.
+                This project is a dating app that allows users to sign into a personal account, 
+                interact with other users, and view, create, edit, and delete content in real time.
               </p>
               <button type="button" class="rounded-pill btn-rounded border-primary">See Project
                 <span><i class="fas fa-arrow-right"></i></span>
@@ -192,11 +191,10 @@
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4">
             <div class="projects__content">
               <div class="icon d-block fas fa-book"></div>
-              <h3 class="display-3--title mt-1">My Book Collection</h3>
+              <h3 class="display-3--title mt-1">Book Collection</h3>
               <p class="ih-lg">
-                Sample sam ple type something here later on when you can thanks. 
-                You should type more stuff on this side probably if you want to. it makes sense.
-                I need to add enough for a third line right now.
+                This full stack application allows the user to view their library, add a new entry, 
+                edit current entries, and delete book objects in their library.
               </p>
               <button type="button" class="rounded-pill btn-rounded border-primary">See Project
                 <span><i class="fas fa-arrow-right"></i></span>
@@ -309,7 +307,7 @@
           <h1 class="display-3 fw-bold text-capitalize">Contact Me</h1>
           <div class="heading-line"></div>
           <p class="lh-lg">
-            this is just some sample text. please come back and fix me later.
+            Please send me an email and I will get back to you as soon as possible!
           </p>
         </div>
 
@@ -319,13 +317,19 @@
             <div class="about-info w-100">
               <h4 class="display-4 fw-bold">About Me</h4>
               <p class="lh-lg">
-                this is filler text. please replace me later bro or you will be sad.
+                I am a largely self-taught software developer equipped with a diverse skill set. 
+                I'm also a soldier in the National Guard and take pride in serving the community. I speak fluent Arabic and enjoy learning new things.
+                My development experience is in both the front-end and back-end of web applications and I would love to become an added asset to your team.
+                I am able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.
               </p>
-              <h3 class="display-3--brief">Why hire me?</h3>
+              <h3 class="display-3--brief">Why should you hire my services?</h3>
               <ul class="about-info__list">
-                <li>I am a team player.</li>
-                <li>I am always looking to learn and grow.</li>
-                <li>lorem ipsum</li>
+                <li>I am a team player and I love to collaborate.</li>
+                <li>My goal is to never stop learning and expanding my skillset.</li>
+                <li>Communication and integrity are a top priorities everything I do.</li>
+                <li>I am a problem solver and an analytical thinker.</li>
+                <li>Organization and attention to detail are always a part of my process.</li>
+                <li>I am experienced in strategic time management.</li>
               </ul>
             </div>
           </div>
@@ -334,17 +338,22 @@
               <h4 class="display-3--title mb-5">Send me a message</h4>
 
               <form action="https://formsubmit.co/e888c7c6e370a35ccfb49f8d259b950b" method="POST" class="row">
+                <!--Honeypot-->
+                <input type="text" name="_honey" style="display: none;">
+                <!--disable captcha-->
+                <input type="hidden" name="_captcha" value="false">
+
                 <div class="col-lg-6 col-md-6 mb-3">
-                  <input type="text" placeholder="First Name" name="Name" id="inputFirstName" class="shadow form-control form-control-lg">
+                  <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg" name="First&nbsp;Name" required>
                 </div>
                 <div class="col-lg-6 col-md-6 mb-3">
-                  <input type="text" placeholder="Last Name" name="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+                  <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg" name="Last&nbsp;Name">
                 </div>
                 <div class="col-lg-12 mb-3">
-                  <input type="email" placeholder="email address" name="email" id="inputEmail" class="shadow form-control form-control-lg">
+                  <input type="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg" name="Email" required>
                 </div>
                 <div class="col-lg-12 mb-3">
-                  <textarea name="message" placeholder="message" name="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+                  <textarea name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg" name="Message"></textarea>
                 </div>
                 <div class="text-center d-grid mt-1">
                   <button type="button submit" class="btn btn-info rounded-pill pt-3 pb-3">
